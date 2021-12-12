@@ -4,8 +4,6 @@ document.addEventListener('turbolinks:load', () => {
   const room_element = document.getElementById('room-id');
   const room_id = Number(room_element.getAttribute('data-room-id'));
 
-  console.log(consumer.subscriptions);
-
   consumer.subscriptions.subscriptions.forEach((subscription) => {
     consumer.subscriptions.remove(subscription);
   });

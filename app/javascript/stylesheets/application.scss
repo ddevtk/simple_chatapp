@@ -104,3 +104,7 @@ input::placeholder {
 .rooms-sidebar {
   border-right: 1px solid #eeeeee;
 }
+#rooms {
+  overflow-y: scroll;
+  height: 60vh;
+}

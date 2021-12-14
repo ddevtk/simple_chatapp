@@ -31,7 +31,6 @@ document.addEventListener('turbolinks:load', () => {
         } else {
           html = data.theirs;
         }
-
         const messageContainer = document.getElementById('messages');
 
         messageContainer.innerHTML = messageContainer.innerHTML + html;
